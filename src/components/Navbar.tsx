@@ -86,7 +86,7 @@ const Navbar = () => {
               className="flex items-center justify-center gap-2 px-3 py-2 rounded-full bg-pink-500 text-white hover:bg-pink-600 transition-colors font-semibold shadow-lg min-w-[80px]"
               aria-label="Change language"
             >
-              <span className="text-sm font-bold">{language}</span>
+              <span className="text-sm font-bold">{language === "BG" ? "EN" : "BG"}</span>
             </button>
           </div>
         </div>

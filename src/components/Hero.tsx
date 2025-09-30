@@ -9,53 +9,53 @@ const Hero = () => {
 
   const galleryData: GalleryItem[] = [
     {
-      common: t('carousel.innovation.title'),
+      common: 'Fitness',
       binomial: t('carousel.innovation.subtitle'),
       photo: {
         url: '/carousel/carousel-1.jpg',
-        text: t('carousel.innovation.description'),
+        text: 'Fitness equipment and training area',
         pos: 'center',
-        by: t('carousel.photoBy')
+        by: ''
       }
     },
     {
-      common: t('carousel.excellence.title'),
+      common: 'Cardio Zone',
       binomial: t('carousel.excellence.subtitle'),
       photo: {
         url: '/carousel/carousel-2.jpg',
-        text: t('carousel.excellence.description'),
+        text: 'Cardio training equipment and machines',
         pos: 'center',
-        by: t('carousel.photoBy')
+        by: ''
       }
     },
     {
-      common: t('carousel.partnership.title'),
+      common: 'Sports Hall',
       binomial: t('carousel.partnership.subtitle'),
       photo: {
         url: '/carousel/carousel-3.jpg',
-        text: t('carousel.partnership.description'),
+        text: 'Multi-purpose sports and activity hall',
         pos: 'center',
-        by: t('carousel.photoBy')
+        by: ''
       }
     },
     {
-      common: t('carousel.growth.title'),
+      common: 'Pool',
       binomial: t('carousel.growth.subtitle'),
       photo: {
         url: '/carousel/carousel-4.jpg',
-        text: t('carousel.growth.description'),
+        text: 'Swimming pool and aquatic facilities',
         pos: 'center',
-        by: t('carousel.photoBy')
+        by: ''
       }
     },
     {
-      common: t('carousel.success.title'),
+      common: 'Spa Zone',
       binomial: t('carousel.success.subtitle'),
       photo: {
         url: '/carousel/carousel-5.jpg',
-        text: t('carousel.success.description'),
+        text: 'Relaxation and wellness spa area',
         pos: 'center',
-        by: t('carousel.photoBy')
+        by: ''
       }
     },
   ];
