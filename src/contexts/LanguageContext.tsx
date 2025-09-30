@@ -14,9 +14,9 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations = {
   BG: {
     'nav.services': 'Услуги',
-    'nav.gym': 'Фитнес',
+    'nav.gym': 'Спортна зала',
     'nav.events': 'Събития',
-    'nav.kids': 'Деца',
+    'nav.kids': 'За деца',
     'nav.pricing': 'Цени',
     'nav.shop': 'Магазин'
   },
