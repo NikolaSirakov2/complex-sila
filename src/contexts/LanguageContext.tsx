@@ -18,7 +18,23 @@ const translations = {
     'nav.events': 'Събития',
     'nav.kids': 'За деца',
     'nav.pricing': 'Цени',
-    'nav.shop': 'Магазин'
+    'nav.shop': 'Магазин',
+    'carousel.innovation.title': 'Иновации',
+    'carousel.innovation.subtitle': 'Креативни решения',
+    'carousel.innovation.description': 'Иновативни технологии и креативни решения',
+    'carousel.excellence.title': 'Превъзходство',
+    'carousel.excellence.subtitle': 'Качествено обслужване',
+    'carousel.excellence.description': 'Превъзходство във всеки проект, който предприемаме',
+    'carousel.partnership.title': 'Партньорство',
+    'carousel.partnership.subtitle': 'Доверено сътрудничество',
+    'carousel.partnership.description': 'Вашият доверен партньор за иновативни решения',
+    'carousel.growth.title': 'Растеж',
+    'carousel.growth.subtitle': 'Напред към бъдещето',
+    'carousel.growth.description': 'Превръщане на идеите в реалност',
+    'carousel.success.title': 'Успех',
+    'carousel.success.subtitle': 'Постижения',
+    'carousel.success.description': 'Доставяне на изключителни резултати',
+    'carousel.photoBy': 'Екип СИЛА'
   },
   EN: {
     'nav.services': 'Services',
@@ -26,7 +42,23 @@ const translations = {
     'nav.events': 'Events',
     'nav.kids': 'Kids',
     'nav.pricing': 'Pricing',
-    'nav.shop': 'Shop'
+    'nav.shop': 'Shop',
+    'carousel.innovation.title': 'Innovation',
+    'carousel.innovation.subtitle': 'Creative Solutions',
+    'carousel.innovation.description': 'Innovative technology and creative solutions',
+    'carousel.excellence.title': 'Excellence',
+    'carousel.excellence.subtitle': 'Quality Service',
+    'carousel.excellence.description': 'Excellence in every project we undertake',
+    'carousel.partnership.title': 'Partnership',
+    'carousel.partnership.subtitle': 'Trusted Collaboration',
+    'carousel.partnership.description': 'Your trusted partner for innovative solutions',
+    'carousel.growth.title': 'Growth',
+    'carousel.growth.subtitle': 'Future Forward',
+    'carousel.growth.description': 'Transforming ideas into reality',
+    'carousel.success.title': 'Success',
+    'carousel.success.subtitle': 'Achievement',
+    'carousel.success.description': 'Delivering exceptional results',
+    'carousel.photoBy': 'Sila Team'
   }
 };
 
