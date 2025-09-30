@@ -22,54 +22,54 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-secondary/95 backdrop-blur-sm border-b border-border">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <img src={silaLogo} alt="СИЛА Logo" className="h-12 w-auto" />
-          </div>
+    <>
+      {/* Traditional navbar for logo and social icons */}
+      <nav className="fixed top-0 left-0 right-0 z-40 bg-gray-800/80 backdrop-blur-sm border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-16">
+            {/* Logo */}
+            <div className="flex-shrink-0">
+              <img src={silaLogo} alt="СИЛА Logo" className="h-10 w-auto" />
+            </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center">
-            <NavBar items={navItems} />
-          </div>
+            {/* Right Side Icons */}
+            <div className="flex items-center gap-4">
+              {/* Social Icons */}
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-pink-500 transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-pink-500 transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
+              </a>
 
-          {/* Right Side Icons */}
-          <div className="flex items-center gap-4">
-            {/* Social Icons */}
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-secondary-foreground hover:text-primary transition-smooth"
-              aria-label="Instagram"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-secondary-foreground hover:text-primary transition-smooth"
-              aria-label="Facebook"
-            >
-              <Facebook className="h-5 w-5" />
-            </a>
-
-            {/* Language Switcher */}
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center justify-center gap-2 px-3 py-2 rounded-full bg-primary text-white hover:bg-primary/90 transition-smooth font-semibold shadow-soft min-w-[80px]"
-              aria-label="Change language"
-            >
-              <span className="text-lg">{language === "BG" ? "🇧🇬" : "🇬🇧"}</span>
-              <span className="text-sm font-bold">{language}</span>
-            </button>
+              {/* Language Switcher */}
+              <button
+                onClick={toggleLanguage}
+                className="flex items-center justify-center gap-2 px-3 py-2 rounded-full bg-pink-500 text-white hover:bg-pink-600 transition-colors font-semibold shadow-lg min-w-[80px]"
+                aria-label="Change language"
+              >
+                <span className="text-sm font-bold">{language}</span>
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
+      {/* Tubelight Navigation */}
+      <NavBar items={navItems} />
+    </>
   );
 };
 
