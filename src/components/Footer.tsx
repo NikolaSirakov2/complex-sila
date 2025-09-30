@@ -1,29 +1,33 @@
+"use client";
+
 import React from 'react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 const Footer = () => {
+  const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
 
   const footerLinks = {
     services: [
-      { name: 'Web Development', href: '#services' },
-      { name: 'Mobile Apps', href: '#services' },
-      { name: 'Cloud Solutions', href: '#services' },
-      { name: 'Consulting', href: '#services' },
-      { name: 'UI/UX Design', href: '#services' },
+      { name: t('footer.webDevelopment'), href: '#services' },
+      { name: t('footer.mobileApps'), href: '#services' },
+      { name: t('footer.cloudSolutions'), href: '#services' },
+      { name: t('footer.consulting'), href: '#services' },
+      { name: t('footer.uiUxDesign'), href: '#services' },
     ],
     company: [
-      { name: 'About Us', href: '#about' },
-      { name: 'Our Team', href: '#about' },
-      { name: 'Careers', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Press', href: '#' },
+      { name: t('footer.aboutUs'), href: '#about' },
+      { name: t('footer.ourTeam'), href: '#about' },
+      { name: t('footer.careers'), href: '#' },
+      { name: t('footer.blog'), href: '#' },
+      { name: t('footer.press'), href: '#' },
     ],
     support: [
-      { name: 'Help Center', href: '#' },
-      { name: 'Contact Us', href: '#contact' },
-      { name: 'Privacy Policy', href: '#' },
-      { name: 'Terms of Service', href: '#' },
-      { name: 'Cookie Policy', href: '#' },
+      { name: t('footer.helpCenter'), href: '#' },
+      { name: t('footer.contactUs'), href: '#contact' },
+      { name: t('footer.privacyPolicy'), href: '#' },
+      { name: t('footer.termsOfService'), href: '#' },
+      { name: t('footer.cookiePolicy'), href: '#' },
     ],
   };
 
@@ -41,8 +45,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-gray-400 mb-6 max-w-sm">
-              We are a team of passionate developers, designers, and innovators dedicated to 
-              creating exceptional digital experiences for businesses worldwide.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-4">
               <a
@@ -74,7 +77,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.services')}</h3>
             <ul className="space-y-2">
               {footerLinks.services.map((link, index) => (
                 <li key={index}>
@@ -91,7 +94,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.company')}</h3>
             <ul className="space-y-2">
               {footerLinks.company.map((link, index) => (
                 <li key={index}>
@@ -108,7 +111,7 @@ const Footer = () => {
 
           {/* Support */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Support</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.support')}</h3>
             <ul className="space-y-2">
               {footerLinks.support.map((link, index) => (
                 <li key={index}>
@@ -127,18 +130,18 @@ const Footer = () => {
         {/* Newsletter Signup */}
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="max-w-md mx-auto text-center">
-            <h3 className="text-lg font-semibold mb-4">Stay Updated</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.stayUpdated')}</h3>
             <p className="text-gray-400 mb-4">
-              Subscribe to our newsletter for the latest updates and insights.
+              {t('footer.newsletterText')}
             </p>
             <div className="flex">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder={t('footer.emailPlaceholder')}
                 className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400"
               />
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-r-lg transition-colors">
-                Subscribe
+                {t('footer.subscribe')}
               </button>
             </div>
           </div>
@@ -148,17 +151,17 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Sila. All rights reserved.
+              © {currentYear} Sila. {t('footer.allRightsReserved')}
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Privacy Policy
+                {t('footer.privacyPolicy')}
               </a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Terms of Service
+                {t('footer.termsOfService')}
               </a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Cookie Policy
+                {t('footer.cookiePolicy')}
               </a>
             </div>
           </div>

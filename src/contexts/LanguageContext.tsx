@@ -65,7 +65,33 @@ const translations = {
     'about.visit': 'Можем да ви разкажем още много, но предпочитаме това да стане на място - заповядайте и нашите отзивчиви рецепционисти ще ви разведат из комплекса, за да придобиете представа кои сме ние и какво предлагаме.',
     // Testimonials section
     'testimonials.title': 'Какво казват нашите клиенти',
-    'testimonials.subtitle': 'Нека не само ние говорим за нас. Ето какво казват нашите доволни клиенти за преживяването си с нас.'
+    'testimonials.subtitle': 'Нека не само ние говорим за нас. Ето какво казват нашите доволни клиенти за преживяването си с нас.',
+    // Footer section
+    'footer.description': 'Ние сме екип от страстни разработчици, дизайнери и иноватори, посветени на създаването на изключителни дигитални преживявания за бизнеси по целия свят.',
+    'footer.services': 'Услуги',
+    'footer.company': 'Компания',
+    'footer.support': 'Поддръжка',
+    'footer.webDevelopment': 'Уеб разработка',
+    'footer.mobileApps': 'Мобилни приложения',
+    'footer.cloudSolutions': 'Облачни решения',
+    'footer.consulting': 'Консултации',
+    'footer.uiUxDesign': 'UI/UX дизайн',
+    'footer.aboutUs': 'За нас',
+    'footer.ourTeam': 'Нашият екип',
+    'footer.careers': 'Кариери',
+    'footer.blog': 'Блог',
+    'footer.press': 'Прес',
+    'footer.helpCenter': 'Център за помощ',
+    'footer.contactUs': 'Свържете се с нас',
+    'footer.privacyPolicy': 'Политика за поверителност',
+    'footer.termsOfService': 'Условия за ползване',
+    'footer.cookiePolicy': 'Политика за бисквитки',
+    'footer.stayUpdated': 'Останете информирани',
+    'footer.newsletterText': 'Абонирайте се за нашия бюлетин за най-новите актуализации и прозрения.',
+    'footer.emailPlaceholder': 'Въведете вашия имейл',
+    'footer.subscribe': 'Абониране',
+    'footer.copyright': 'Всички права запазени.',
+    'footer.allRightsReserved': 'Всички права запазени.'
   },
   EN: {
     'nav.services': 'Services',
@@ -120,7 +146,33 @@ const translations = {
     'about.visit': 'We can tell you much more, but we prefer this to happen on site - come and our responsive receptionists will take you around the complex so you can get an idea of who we are and what we offer.',
     // Testimonials section
     'testimonials.title': 'What Our Customers Say',
-    'testimonials.subtitle': 'Don\'t just take our word for it. Here\'s what our satisfied customers have to say about their experience with us.'
+    'testimonials.subtitle': 'Don\'t just take our word for it. Here\'s what our satisfied customers have to say about their experience with us.',
+    // Footer section
+    'footer.description': 'We are a team of passionate developers, designers, and innovators dedicated to creating exceptional digital experiences for businesses worldwide.',
+    'footer.services': 'Services',
+    'footer.company': 'Company',
+    'footer.support': 'Support',
+    'footer.webDevelopment': 'Web Development',
+    'footer.mobileApps': 'Mobile Apps',
+    'footer.cloudSolutions': 'Cloud Solutions',
+    'footer.consulting': 'Consulting',
+    'footer.uiUxDesign': 'UI/UX Design',
+    'footer.aboutUs': 'About Us',
+    'footer.ourTeam': 'Our Team',
+    'footer.careers': 'Careers',
+    'footer.blog': 'Blog',
+    'footer.press': 'Press',
+    'footer.helpCenter': 'Help Center',
+    'footer.contactUs': 'Contact Us',
+    'footer.privacyPolicy': 'Privacy Policy',
+    'footer.termsOfService': 'Terms of Service',
+    'footer.cookiePolicy': 'Cookie Policy',
+    'footer.stayUpdated': 'Stay Updated',
+    'footer.newsletterText': 'Subscribe to our newsletter for the latest updates and insights.',
+    'footer.emailPlaceholder': 'Enter your email',
+    'footer.subscribe': 'Subscribe',
+    'footer.copyright': 'All rights reserved.',
+    'footer.allRightsReserved': 'All rights reserved.'
   }
 };
 

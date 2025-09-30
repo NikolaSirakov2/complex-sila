@@ -60,13 +60,9 @@ const Hero = () => {
     },
   ];
   return (
-    // This outer container provides the scrollable height
-    <div className="w-full bg-gradient-to-br from-blue-50 to-indigo-100" style={{ height: '500vh' }}>
-      {/* This inner container sticks to the top while scrolling */}
-      <div className="w-full h-screen sticky top-0 flex flex-col items-center justify-center overflow-hidden">
-        <div className="w-full h-full">
-          <CircularGallery items={galleryData} radius={350} />
-        </div>
+    <div className="w-full h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col items-center justify-center overflow-hidden">
+      <div className="w-full h-full">
+        <CircularGallery items={galleryData} radius={350} />
       </div>
     </div>
   );
