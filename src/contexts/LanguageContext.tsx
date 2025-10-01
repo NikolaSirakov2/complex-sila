@@ -66,6 +66,9 @@ const translations = {
     // Testimonials section
     'testimonials.title': 'Какво казват нашите клиенти',
     'testimonials.subtitle': 'Нека не само ние говорим за нас. Ето какво казват нашите доволни клиенти за преживяването си с нас.',
+    // Video section
+    'video.title': 'Вижте нашия комплекс',
+    'video.subtitle': 'Запознайте се с нашите съоръжения и услуги чрез този видео тур',
     // Footer section
     'footer.description': 'Ние сме екип от страстни разработчици, дизайнери и иноватори, посветени на създаването на изключителни дигитални преживявания за бизнеси по целия свят.',
     'footer.services': 'Услуги',
@@ -147,6 +150,9 @@ const translations = {
     // Testimonials section
     'testimonials.title': 'What Our Customers Say',
     'testimonials.subtitle': 'Don\'t just take our word for it. Here\'s what our satisfied customers have to say about their experience with us.',
+    // Video section
+    'video.title': 'See Our Complex',
+    'video.subtitle': 'Get acquainted with our facilities and services through this video tour',
     // Footer section
     'footer.description': 'We are a team of passionate developers, designers, and innovators dedicated to creating exceptional digital experiences for businesses worldwide.',
     'footer.services': 'Services',

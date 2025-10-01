@@ -289,18 +289,13 @@ export function BeamsBackground({
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.8 }}
                     >
-                        <div className="flex items-start">
-                            <div className="flex-shrink-0">
-                                <span className="text-yellow-400 text-xl sm:text-2xl">⚠️</span>
-                            </div>
-                            <div className="ml-2 sm:ml-3">
-                                <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-yellow-200 mb-2">
-                                    {t('beams.warning.title')}
-                                </h3>
-                                <p className="text-yellow-100 text-xs sm:text-sm md:text-base leading-relaxed">
-                                    {t('beams.warning.text')}
-                                </p>
-                            </div>
+                        <div>
+                            <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-yellow-200 mb-2">
+                                {t('beams.warning.title')}
+                            </h3>
+                            <p className="text-yellow-100 text-xs sm:text-sm md:text-base leading-relaxed">
+                                {t('beams.warning.text')}
+                            </p>
                         </div>
                     </motion.div>
 

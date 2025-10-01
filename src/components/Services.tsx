@@ -66,9 +66,6 @@ const Services = () => {
 
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 mb-12">
           <div className="flex items-start">
-            <div className="flex-shrink-0">
-              <Shield className="h-6 w-6 text-yellow-600" />
-            </div>
             <div className="ml-3">
               <h3 className="text-lg font-semibold text-yellow-800 mb-2">
                 ВАЖНО!
