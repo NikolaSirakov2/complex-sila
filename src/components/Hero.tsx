@@ -1,68 +1,44 @@
 "use client";
 
 import React from 'react';
-import { CircularGallery, GalleryItem } from '@/components/ui/circular-gallery';
+import { Carousel } from '@/components/ui/carousel';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 const Hero = () => {
   const { t } = useLanguage();
 
-  const galleryData: GalleryItem[] = [
+  const slideData = [
     {
-      common: 'Fitness',
-      binomial: t('carousel.innovation.subtitle'),
-      photo: {
-        url: '/carousel/carousel-1.jpg',
-        text: 'Fitness equipment and training area',
-        pos: 'center',
-        by: ''
-      }
+      title: 'Fitness',
+      button: t('carousel.innovation.subtitle') || 'Explore Fitness',
+      src: '/carousel/carousel-1.jpg'
     },
     {
-      common: 'Cardio Zone',
-      binomial: t('carousel.excellence.subtitle'),
-      photo: {
-        url: '/carousel/carousel-2.jpg',
-        text: 'Cardio training equipment and machines',
-        pos: 'center',
-        by: ''
-      }
+      title: 'Cardio Zone',
+      button: t('carousel.excellence.subtitle') || 'Explore Cardio',
+      src: '/carousel/carousel-2.jpg'
     },
     {
-      common: 'Sports Hall',
-      binomial: t('carousel.partnership.subtitle'),
-      photo: {
-        url: '/carousel/carousel-3.jpg',
-        text: 'Multi-purpose sports and activity hall',
-        pos: 'center',
-        by: ''
-      }
+      title: 'Sports Hall',
+      button: t('carousel.partnership.subtitle') || 'Explore Sports',
+      src: '/carousel/carousel-3.jpg'
     },
     {
-      common: 'Pool',
-      binomial: t('carousel.growth.subtitle'),
-      photo: {
-        url: '/carousel/carousel-4.jpg',
-        text: 'Swimming pool and aquatic facilities',
-        pos: 'center',
-        by: ''
-      }
+      title: 'Pool',
+      button: t('carousel.growth.subtitle') || 'Explore Pool',
+      src: '/carousel/carousel-4.jpg'
     },
     {
-      common: 'Spa Zone',
-      binomial: t('carousel.success.subtitle'),
-      photo: {
-        url: '/carousel/carousel-5.jpg',
-        text: 'Relaxation and wellness spa area',
-        pos: 'center',
-        by: ''
-      }
+      title: 'Spa Zone',
+      button: t('carousel.success.subtitle') || 'Explore Spa',
+      src: '/carousel/carousel-5.jpg'
     },
   ];
+
   return (
     <div className="w-full h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col items-center justify-center overflow-hidden">
-      <div className="w-full h-full">
-        <CircularGallery items={galleryData} radius={350} />
+      <div className="w-full h-full flex items-center justify-center">
+        <Carousel slides={slideData} />
       </div>
     </div>
   );
