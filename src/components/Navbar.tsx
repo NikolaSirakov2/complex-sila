@@ -5,6 +5,7 @@ import { Dumbbell, Calendar, Baby, ShoppingBag, DollarSign, Building2, Facebook,
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -29,7 +30,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src="/sila_logo.svg" alt="СИЛА Logo" className="h-10 w-auto" />
+            <Image src="/sila_logo.svg" alt="СИЛА Logo" className="h-10 w-auto" width={40} height={40} />
           </div>
 
           {/* Navigation Menu */}

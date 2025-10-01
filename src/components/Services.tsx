@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, CreditCard, ShoppingCart, UserCheck, Shield, Clock } from 'lucide-react';
+import { CreditCard, ShoppingCart, UserCheck, Shield } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -95,7 +95,7 @@ const Services = () => {
         <div className="bg-gray-50 p-8 rounded-lg">
           <div className="text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Комплекс "С.И.²Л.А."
+              Комплекс &quot;С.И.²Л.А.&quot;
             </h3>
             <p className="text-lg text-gray-700 mb-6">
               Ви предлага комплексно обслужване, адекватно на съвременния активен начин на живот, като осигурява висока удовлетвореност на своите клиенти.
@@ -104,7 +104,7 @@ const Services = () => {
               Предоставяме Ви различни възможности за спортна, развлекателна и социална дейност чрез широка гама от конкурентни услуги.
             </p>
             <p className="text-lg text-gray-700">
-              Разполагаме със собствен хотел "Алианс" 4* и ресторант "Копчето", които се намират непосредствено близо до комплекса.
+              Разполагаме със собствен хотел &quot;Алианс&quot; 4* и ресторант &quot;Копчето&quot;, които се намират непосредствено близо до комплекса.
             </p>
           </div>
         </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 import { useLanguage } from '../contexts/LanguageContext';
 
 const Footer = () => {
@@ -38,10 +39,12 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center mb-4">
-              <img
+              <Image
                 className="h-8 w-auto"
                 src="/sila_logo.svg"
                 alt="Sila Logo"
+                width={32}
+                height={32}
               />
             </div>
             <p className="text-gray-400 mb-6 max-w-sm">

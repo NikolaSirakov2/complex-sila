@@ -129,7 +129,7 @@ const Pricing = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-4">
-            Need a custom solution? We're here to help!
+            Need a custom solution? We&apos;re here to help!
           </p>
           <button className="text-blue-600 hover:text-blue-700 font-semibold">
             Contact us for a custom quote
